@@ -9,11 +9,10 @@ This is a student CRUD API project with JDBC connection to a MySQL 8.0 database.
 
 The code follows common convention to organize itself in different packages, each for a different layer: `dao, db, main, and pojo`, whereby `com.example` is the parent of them all.
 
-
 ## JDBC Database Connection
 
 
-## Pattern: Singleton Pattern
+## Pattern: Singleton
 
 
 ## Screenshots
