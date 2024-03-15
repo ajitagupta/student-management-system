@@ -15,6 +15,16 @@ Our code follows common convention of organizing itself in different subpackages
 
 JDBC (Java Database Connectivity) is the Java API that manages connecting to a database, issuing queries and commands, and handling result sets obtained from the database.
 
+The steps for connecting to a database with JDBC are as follows:
+
+1. Install or locate the database you want to access.
+2. Include the JDBC library.
+3. Ensure the JDBC driver you need is on your classpath.
+4. Use the JDBC library to obtain a connection to the database.
+5. Use the connection to issue SQL commands.
+6. Close the connection when you are finished.
+
+
 As a developer, you can use JDBC to interact with a database from within a Java program. JDBC acts as a bridge from your code to the database. JDBC is the common API that your application code interacts with. Beneath that is the JDBC-compliant driver for the database you are using as shown in the figure below:
 
 ![JDBC](https://i.ibb.co/pZPSnYD/what-is-jdbc-fig2-100927560-large.webp "JDBC")
