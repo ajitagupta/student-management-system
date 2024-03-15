@@ -7,10 +7,21 @@ This is a student CRUD API project with JDBC connection to a MySQL 8.0 database.
 
 ## Pattern: Tree-package-structure
 
-The code follows common convention of organizing itself in different subpackages, each for a different layer: `dao, db, main, and pojo`, whereby `com.example` is the parent of them all.
+Packages should be cohesive collections of classes, some of which are visible only within the package. That would minimize coupling between classes that should not be coupled because they pertain to different features. The package-by-layer approach, does not take advantage of package visibility modifiers, and packages in such a project have low cohesion and a high degree of coupling between packages. 
 
-## JDBC Database Connection
+Our code follows common convention of organizing itself in different subpackages, each for a different layer: `dao, db, main, and pojo`, whereby `com.example` is the parent of them all.
 
+## Database Connection with JDBC
+
+JDBC (Java Database Connectivity) is the Java API that manages connecting to a database, issuing queries and commands, and handling result sets obtained from the database.
+
+As a developer, you can use JDBC to interact with a database from within a Java program. JDBC acts as a bridge from your code to the database. JDBC is the common API that your application code interacts with. Beneath that is the JDBC-compliant driver for the database you are using as shown in the figure below:
+
+![JDBC](https://i.ibb.co/pZPSnYD/what-is-jdbc-fig2-100927560-large.webp "JDBC")
+
+Source: InfoWorld
+
+While JDBC is sufficient for simpler applications, most developers will eventually look to the Jakarta Persistence API (formerly the Java Persistence API) to develop a more formal data access layer.
 
 ## Pattern: Singleton
 
