@@ -5,11 +5,15 @@ This is a student CRUD API project with JDBC connection to a MySQL 8.0 database.
 3) Run sql.sql
 4) Start using our menu-driven app
 
+## Pattern: Tree-package-structure
+
+The code follows common convention to organize itself in different packages, each for a different layer: `dao, db, main, and pojo`, whereby `com.example` is the parent of them all.
+
 
 ## JDBC Database Connection
 
 
-## Singleton Pattern
+## Pattern: Singleton Pattern
 
 
 ## Screenshots
