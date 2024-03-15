@@ -9,7 +9,10 @@ This is a starter student CRUD API project with JDBC connection to a MySQL 8.0 d
 
 ### (C)reate
 
+### Eclipse console
 ![Create function](https://i.ibb.co/thHQK8B/Add.png "Create function")
+
+### MySQL Workbench
 
 ![New record inside MySQL database](https://i.ibb.co/L1jm3Gg/database.png "New record inside MySQL database")
 
