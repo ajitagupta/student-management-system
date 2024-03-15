@@ -7,7 +7,7 @@ This is a student CRUD API project with JDBC connection to a MySQL 8.0 database.
 
 ## Pattern: Tree-package-structure
 
-The code follows common convention to organize itself in different packages, each for a different layer: `dao, db, main, and pojo`, whereby `com.example` is the parent of them all.
+The code follows common convention of organizing itself in different subpackages, each for a different layer: `dao, db, main, and pojo`, whereby `com.example` is the parent of them all.
 
 ## JDBC Database Connection
 
