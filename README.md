@@ -1,5 +1,5 @@
 # Student Management System
-This is a starter student CRUD API project with JDBC connection to a MySQL 8.0 database. You can open it directly in an IDE like Eclipse. You will also have to run `sql.sql` in a SQL client like MySQL Workbench to have a database set up. The connection is built from within the code. So, in all
+This is a starter student CRUD API project with JDBC connection to a MySQL 8.0 database. You can open it directly in an IDE like Eclipse. You will also have to run `sql.sql` in a SQL client like MySQL Workbench to have a database set up. The connection is built from within the code. So, in all:
 1) Download [Eclipse](https://www.eclipse.org/downloads/)
 2) Download a SQL client like [MySQL Workbench](https://dev.mysql.com/downloads/workbench/)
 3) Run sql.sql
@@ -31,15 +31,18 @@ This is a starter student CRUD API project with JDBC connection to a MySQL 8.0 d
 ### (U)pdate
 
 #### Eclipse Console
+![Update function](https://i.ibb.co/PrT6xzK/Update.png "Update function")
 
 #### MySQL Workbench
+![Updated record inside MySQL database](https://i.ibb.co/gmhBBC8/database-updated.png "Updated record inside MySQL database")
 
 
-### (D)delete
+### (D)elete
 
 #### Eclipse Console
+![Delete function](https://i.ibb.co/CJVqmq1/Delete.png "Delete function")
 
 #### MySQL Workbench
-
+![Empty MySQL database](https://i.ibb.co/gVscCTc/database-entrydeleted.png "Empty MySQL database")
 
 
