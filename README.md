@@ -45,7 +45,10 @@ The code follows common convention of organizing itself in different subpackages
 #### Eclipse Console
 ![Delete function](https://i.ibb.co/CJVqmq1/Delete.png "Delete function")
 
-#### MySQL Workbench
-![Empty MySQL database](https://i.ibb.co/gVscCTc/database-entrydeleted.png "Empty MySQL database")
+
+## License
+![Public Domain](https://i.ibb.co/74t3hCb/public-domain.png "Public Domain")
+
+To the extent possible under law, Ajita Gupta has waived all copyright and related or neighboring rights to this work.
 
 
