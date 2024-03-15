@@ -1,7 +1,7 @@
 # Student Management System
 This is a starter student CRUD API project with JDBC connection to a MySQL 8.0 database. You can open it directly in an IDE like Eclipse. You will also have to run `sql.sql` in a SQL client like MySQL Workbench to have a database set up. The connection is built from within the code. So, in all
-1) Download Eclipse
-2) Download a SQL client like MySQL Workbench
+1) Download [Eclipse](https://www.eclipse.org/downloads/)
+2) Download a SQL client like [MySQL Workbench](https://dev.mysql.com/downloads/workbench/)
 3) Run sql.sql
 4) Start using our menu-driven app
 
