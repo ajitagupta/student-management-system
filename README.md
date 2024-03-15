@@ -13,7 +13,6 @@ This is a starter student CRUD API project with JDBC connection to a MySQL 8.0 d
 
 ![New record inside MySQL database](https://i.ibb.co/L1jm3Gg/database.png "New record inside MySQL database")
 
-
 ### (R)ead
 
 
