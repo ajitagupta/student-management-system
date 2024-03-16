@@ -38,9 +38,9 @@ While JDBC is sufficient for simpler applications, most developers will eventual
 
 <blockquote>
 The Singleton Pattern ensures you have at most one instance of a class in your application.
-
+<br/>
 The Singleton Pattern also provides a global access point to that instance.
-
+<br/>
 Java's implementation of the Singleton Pattern makes use of a private constructor, a static method combined with a static variable.
 </blockquote>
 
