@@ -46,6 +46,14 @@ Java's implementation of the Singleton Pattern makes use of a private constructo
 
 [*Head First Design Patterns*](https://www.oreilly.com/library/view/head-first-design/9781492077992/)
 
+The Singleton class is as follows:
+
+```
+blabla
+```
+
+In this class we execute an SQL query. Since this action has to be repeated at many occasions (CRUD) we place the code inside a Singleton.
+
 ## Screenshots
 
 ### (C)reate
