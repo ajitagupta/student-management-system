@@ -9,7 +9,7 @@ This is a student CRUD API project with JDBC connection to a MySQL 8.0 database.
 
 Packages should be cohesive collections of classes. That would minimize coupling between classes that should not be coupled because they pertain to different features. In the package-by-layer approach, packages have high cohesion and a low degree of coupling between packages. 
 
-Our code follows common convention of organizing itself in different subpackages, each for a different child-layer: `dao, db, main, and pojo`, whereby `com.example` is the parent of them all. Hence, the tree structure.
+Our code follows common convention of organizing itself in different subpackages, each for a different child-layer: `dao, db, main, and pojo`, whereby `com.example` is the parent of them all. Hence, the name tree structure.
 
 ## Database Connection with JDBC
 
