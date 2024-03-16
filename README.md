@@ -44,7 +44,7 @@ Java's implementation of the Singleton Pattern makes use of a private constructo
 
 </blockquote>
 
-- Head First Design Patterns
+*Head First Design Patterns*
 
 ## Screenshots
 
