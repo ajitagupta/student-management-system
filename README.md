@@ -46,7 +46,7 @@ Java's implementation of the Singleton Pattern makes use of a private constructo
 
 [*Head First Design Patterns*](https://www.oreilly.com/library/view/head-first-design/9781492077992/)
 
-The Singleton class is as follows:
+The Singleton class `.java` is as follows:
 
 ```
 blabla
