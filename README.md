@@ -7,7 +7,7 @@ This is a student CRUD API project with JDBC connection to a MySQL 8.0 database.
 
 ## Pattern: Tree-package-structure
 
-Packages should be cohesive collections of classes, some of which are visible only within the package. That would minimize coupling between classes that should not be coupled because they pertain to different features. The package-by-layer approach, does not take advantage of package visibility modifiers, and packages in such a project have low cohesion and a high degree of coupling between packages. 
+Packages should be cohesive collections of classes. That would minimize coupling between classes that should not be coupled because they pertain to different features. In the package-by-layer approach, packages have low cohesion and a high degree of coupling between packages. 
 
 Our code follows common convention of organizing itself in different subpackages, each for a different layer: `dao, db, main, and pojo`, whereby `com.example` is the parent of them all.
 
