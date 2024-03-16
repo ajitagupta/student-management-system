@@ -1,8 +1,9 @@
 # Student Management System
-This is a student CRUD API project with JDBC connection to a MySQL 8.0 database. You can open it directly in an IDE like Eclipse. You will also have to run `sql.sql` in a SQL client like MySQL Workbench to have a database set up. The connection to the database is built from within the Java code. So, in all:
+This is a student CRUD API project with JDBC connection to a MySQL 8.0 database. To get started, execute the following:
+
 1) Download [Eclipse](https://www.eclipse.org/downloads/)
 2) Download a SQL client like [MySQL Workbench](https://dev.mysql.com/downloads/workbench/)
-3) Run sql.sql
+3) Run sql.sql to set up a database
 4) Start using our menu-driven app
 
 ## Pattern: Tree-package-structure
@@ -44,7 +45,7 @@ Java's implementation of the Singleton Pattern makes use of a private constructo
 
 </blockquote>
 
-*Head First Design Patterns*
+[*Head First Design Patterns*](https://www.oreilly.com/library/view/head-first-design/9781492077992/)
 
 ## Screenshots
 
