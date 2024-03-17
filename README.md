@@ -44,7 +44,7 @@ The Singleton Pattern ensures a class has only one instance, and provides a glob
 
 [*Head First Design Patterns*](https://www.oreilly.com/library/view/head-first-design/9781492077992/)
 
-In short, we create a one-of-a-kind object for which only one instance is required. Following this base practice we put all our database code into one class. The so-called resulting *Singleton* class `.java` is as follows:
+In short, a Singleton is a one-of-a-kind object for which only one instance is required. Following this best practice we put all our database code into one class. The so-called resulting *Singleton* class `.java` is as follows:
 
 ```
 blabla
