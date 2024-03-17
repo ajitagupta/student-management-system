@@ -36,23 +36,21 @@ While JDBC is sufficient for simpler applications, most developers will eventual
 
 ## Pattern: Singleton
 
+There are many objects we only need one of: thread pools, caches, dialog boxes, objects that handle preferences and registry settings, objects used for logging, and objects that act as device drivers to devices like printers and graphics cards. In fact, for many of these types of objects, if we were to instantiate more than one we'd run into all sorts of problems like incorrect program behavior, overuse of resources, or inconsistent results.
+
 <blockquote>
-The Singleton Pattern ensures you have at most one instance of a class in your application.
-<br/>
-The Singleton Pattern also provides a global access point to that instance.
-<br/>
-Java's implementation of the Singleton Pattern makes use of a private constructor, a static method combined with a static variable.
+The Singleton Pattern ensures a class has only one instance, and provides a global point of access to it. Whenever you need an instance, just query the class and it will hand you back the single instance.
 </blockquote>
 
 [*Head First Design Patterns*](https://www.oreilly.com/library/view/head-first-design/9781492077992/)
 
-The Singleton class `.java` is as follows:
+In short, we create a one-of-a-kind object for which only one instance is required. Following this base practice we put all our database code into one class. The so-called resulting *Singleton* class `.java` is as follows:
 
 ```
 blabla
 ```
 
-In this class we execute an SQL query. Since this action has to be repeated at many occasions (CRUD) we place the code inside a Singleton.
+Here, we execute an SQL query. Since this action has to be repeated at many occasions (CRUD) it makes sense to place the code inside a Singleton.
 
 ## Screenshots
 
