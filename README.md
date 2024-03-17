@@ -82,3 +82,6 @@ Here, we execute an SQL query. Since this action has to be repeated at many occa
 #### Eclipse Console
 ![Delete function](https://i.ibb.co/CJVqmq1/Delete.png "Delete function")
 
+#### MySQL Workbench
+![Empty MySQL database](https://i.ibb.co/BjB9jY0/database-entrydeleted.png "Empty MySQL database")
+
