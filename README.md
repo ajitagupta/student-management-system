@@ -12,6 +12,9 @@ Packages should be cohesive collections of classes. That would minimize coupling
 
 Our code follows common convention of organizing itself in different subpackages, each for a different child-layer: `dao, db, main, and pojo`, whereby `com.example` is the parent of them all. Hence, the name tree structure.
 
+![Tree-package-structure](https://i.ibb.co/7p9N5Lc/tree-package-structure.png "Tree-package-structure")
+
+
 ## Database Connection with JDBC
 
 JDBC (Java Database Connectivity) is the Java API that manages connecting to a database, issuing queries and commands, and handling result sets obtained from the database.
