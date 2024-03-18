@@ -86,7 +86,7 @@ Here, we execute an SQL query using `PreparedStatement` and SQL-argument-placeho
 
 To enable mapping between Java code and database we create a Plain Old Object Class (POJO). For each table there is a corresponding POJO class. This is the convention.
 
-For our case we just need one Student POJO since we have only one table in our database.
+For our case we just need one Student POJO since we have only one table `students` in our database.
 
 ## Screenshots
 
