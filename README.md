@@ -47,13 +47,46 @@ The Singleton Pattern ensures a class has only one instance, and provides a glob
 
 [*Head First Design Patterns*](https://www.oreilly.com/library/view/head-first-design/9781492077992/)
 
-In short, a Singleton is a one-of-a-kind object for which only one instance is required. Following this best practice we put all our database code into one class. The so-called resulting *Singleton* class `.java` is as follows:
+In short, a Singleton is a one-of-a-kind object for which only one instance is required. Following this best practice we put all our database code into one class. The so-called resulting *Singleton* class `CP.java` is as follows:
 
 ```
-blabla
+public class CP {
+
+	static Connection conn;
+	
+	public static Connection createc() throws SQLException {
+		
+		//load drive class
+		
+		try {
+			Class.forName("com.mysql.cj.jdbc.Driver");
+			
+			//create connection
+			
+			String user="root";
+			String password="root";
+			String url="jdbc:mysql://localhost:3306/studentdata";
+			
+			conn=DriverManager.getConnection(url, user, password);
+		} catch (ClassNotFoundException e) {
+		
+			e.printStackTrace();
+		}
+		return conn;
+		
+		
+	}
+	
+}
 ```
 
-Here, we execute an SQL query. Since this action has to be repeated at many occasions (CRUD) it makes sense to place the code inside a Singleton.
+Here, we execute an SQL query using `PreparedStatement` and SQL-argument-placeholders. Since this action has to be repeated at many occasions (CRUD) it makes sense to place the code inside a Singleton.
+
+## Pattern: POJO Class
+
+To enable mapping between Java code and database we create a Plain Old Object Class (POJO). For each table there is a corresponding POJO class. This is the convention.
+
+For our case we just need one Student POJO since we have only one table in our database.
 
 ## Screenshots
 
