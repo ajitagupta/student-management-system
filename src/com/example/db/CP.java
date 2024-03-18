@@ -10,7 +10,7 @@ public class CP {
 	
 	public static Connection createc() throws SQLException {
 		
-		//load drive class
+		//load driver class
 		
 		try {
 			Class.forName("com.mysql.cj.jdbc.Driver");
