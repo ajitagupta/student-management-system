@@ -84,7 +84,7 @@ Here, we execute an SQL query using `PreparedStatement` and SQL-argument-placeho
 
 ## Pattern: Data Access Object (DAO)
 
-The DAO is responsible for interfacing with the database. It implements methods for saving/retrieving entities. 
+The DAO is responsible for interfacing with the database. It implements methods for saving/retrieving/deleting entities. 
 
 ![Create function](https://i.ibb.co/kXtft16/DAO.png "Create function")
 
