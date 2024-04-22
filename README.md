@@ -82,6 +82,13 @@ public class CP {
 
 Here, we execute an SQL query using `PreparedStatement` and SQL-argument-placeholders. Since this action has to be repeated at many occasions (CRUD) it makes sense to place the code inside a Singleton.
 
+## Pattern: Data Access Object (DAO)
+
+The DAO is responsible for interfacing with the database. It implements methods for saving/retrieving entities. 
+
+![Create function](https://i.ibb.co/kXtft16/DAO.png "Create function")
+
+
 ## Pattern: POJO Class
 
 To enable mapping between Java code and database we create a Plain Old Object Class (POJO). For each table there is a corresponding POJO class. This is the convention.
