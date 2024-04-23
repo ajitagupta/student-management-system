@@ -84,10 +84,7 @@ Here, we execute an SQL query using `PreparedStatement` and SQL-argument-placeho
 
 ## Pattern: Data Access Object (DAO)
 
-The DAO is responsible for interfacing with the database. It implements methods for saving/retrieving/deleting entities. 
-
-![Data Access Object](https://i.ibb.co/kXtft16/DAO.png "Data Access Object")
-
+The DAO is responsible for interfacing with the database. It implements methods for saving/retrieving/deleting entities.
 
 ## Pattern: POJO Class
 
