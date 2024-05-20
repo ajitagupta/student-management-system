@@ -1,5 +1,7 @@
 # Student Management System
-This is a student CRUD API project with JDBC connection to a MySQL 8.0 database. To get started, execute the following:
+This is a student CRUD API project with JDBC connection to a MySQL 8.0 database. It allows to create new, read, update, and delete existing student data. 
+
+To get started, execute the following:
 
 1) Download [Eclipse](https://www.eclipse.org/downloads/)
 2) Download a SQL client like [MySQL Workbench](https://dev.mysql.com/downloads/workbench/)
